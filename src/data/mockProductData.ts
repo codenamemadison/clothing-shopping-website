@@ -1,0 +1,53 @@
+import type { Product } from '../types/projectTypes';
+
+
+export const mockProductData: Array<Product> = [
+    {
+        id: '1',
+        name: 'Basic T-Shirt',
+        description: 'Common t-shirt',
+        price: 50,
+        sizes: ['S', 'M', 'L'],
+        images: ['temp-product-front.png', 'temp-product-back.png'],
+        itemPoints: ['100% Cotton', 'Heavy-weight', 'Short-sleeved'],
+        type: 'shirt',
+        color: "black",
+        tags: ['new'],
+    },
+    {
+        id: '2',
+        name: 'Graphic T-Shirt',
+        description: 'T-shirt with a graphic print',
+        price: 70,
+        sizes: ['S', 'M', 'L'],
+        images: ['temp-product-front.png', 'temp-product-back.png'],
+        itemPoints: ['100% Cotton', 'Heavy-weight', 'High-quality print'],
+        type: 'shirt',
+        color: "black",
+        tags: [],
+    },
+    {
+        id: '3',
+        name: 'Black Pants',
+        description: 'Black pants',
+        price: 100,
+        sizes: ['S', 'M', 'L'],
+        images: ['temp-product-front.png', 'temp-product-back.png'],
+        itemPoints: ['100% Cotton', 'Heavy-weight', 'With pockets'],
+        type: 'pants',
+        color: "black",
+        tags: [],
+    },
+    {
+        id: '4',
+        name: 'Hoodie',
+        description: 'Black hoodie',
+        price: 120,
+        sizes: ['S', 'M', 'L'],
+        images: ['temp-product-front.png', 'temp-product-back.png'],
+        itemPoints: ['100% Cotton', 'Heavy-weight', 'Double-lined hood'],
+        type: 'hoodie',
+        color: "black",
+        tags: [],
+    },
+]
