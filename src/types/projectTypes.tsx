@@ -1,4 +1,4 @@
-export type ProductType = 'shirt' | 'pants' | 'hoodie';
+export type ProductType = 'shirt' | 'pants' | 'hoodie' | 'bag';
 
 // Product Listing
 export interface Product {
