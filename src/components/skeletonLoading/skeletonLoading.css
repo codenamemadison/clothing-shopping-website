@@ -1,0 +1,43 @@
+
+/* Skeleton container - inherits from .product-info */
+.skeleton {
+    pointer-events: none; /* whether or not the element can be interacted with */
+}
+
+/* Skeleton image - matches img dimensions */
+.skeleton-image {
+    width: var(--product-image-side-length);
+    height: var(--product-image-side-length);
+    background-color: var(--skeleton-bg-color);
+    border-radius: 4px;
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* Base skeleton text styles */
+.skeleton-text {
+    height: var(--product-text-font-size);
+    background-color: var(--skeleton-bg-color);
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* Skeleton name - matches product name width */
+.skeleton-name {
+    width: var(--product-name-width);
+}
+
+/* Skeleton price - matches product price width */
+.skeleton-price {
+    width: var(--product-price-width);
+}
+
+/* Pulse animation for skeleton loading effect */
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.6;
+    }
+}

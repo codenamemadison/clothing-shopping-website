@@ -1,0 +1,17 @@
+
+:root {
+    --product-card-height: 10rem;
+    --product-card-width: 10rem;
+    --product-card-padding: 1rem;
+    --product-card-margin: 1rem;
+
+    --product-image-side-length: 8rem;
+
+    --product-text-font-size: 1rem;
+    --product-text-line-height: 1.5;
+    --product-name-width: 7rem;
+    --product-price-width: 4rem;
+    
+    --product-bg-color: #fff;
+    --skeleton-bg-color: #e0e0e0;
+}

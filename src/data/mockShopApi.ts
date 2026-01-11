@@ -14,7 +14,7 @@ function maybeFail(prob = 0.1){
 
 // Simulate fetching all products
 export async function getProducts(): Promise<Product[]> {
-    await sleep(400)
+    await sleep(1000); // Increased delay to see skeleton loading
     maybeFail(0.05);
     return mockProductData;
 }
